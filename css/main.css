@@ -1,0 +1,152 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.hidden {
+  display: none;
+}
+
+#siteContainer {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.mainHeader {
+  width: 748px;
+  padding: 66px 225px 60px;
+  background-color: #BBA14F;
+  display: grid;
+  grid-gap: 20px;
+
+}
+.mainHeader img{
+   grid-column: 1 / span 1;
+}
+
+.mainHeader img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.title h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+}
+
+.mainHeader h2 {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 7.5em;
+  color: #fff;
+}
+
+.mainHeader p {
+  width: 605px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+}
+.TeamMembers {
+  width: 748px;
+  margin: 0 auto;
+  padding: 50px 50px 20px 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.members h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #0075a9;
+}
+
+.members h3 {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.ayman {
+	width: 220px;
+	height: 220px;
+	display:inline-block;
+	overflow:hidden;
+  background-image:url(../img/me.jpg);
+}
+
+.ayman:hover {background-image:url(../img/me1.jpg) }
+
+.yassine {
+	width: 220px;
+	height: 220px;
+	display:inline-block;
+	overflow:hidden;
+  background-image:url(../img/yassine.jpg);
+}
+
+.yassine:hover {background-image:url(../img/yassine1.jpg) }
+
+
+
+.textBio {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2em;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+#mainFooter {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  background-color: #152238;
+  padding-top: -3em;
+}
+
+#copyRight p {
+  width: 600px;
+  color: #fff;
+  font-size: 15px;
+}
+
+#copyRight span {
+  font-weight: bold;
+}
+
+.socialIcons {
+  display: flex;
+  height: 40px;
+  flex-direction: row;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialIcons img {
+  height: 25px;
+  margin-left: 10px;
+}
